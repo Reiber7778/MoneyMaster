@@ -1,0 +1,159 @@
+
+
+/* fondo de la pagina */
+body{
+    background-image:url(/imagenes/photo_2024-02-24_15-04-24.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+}
+.sign{
+  background-color: rgb(188, 123, 248);
+  width: 50%;
+  height :30px;
+  border: 4px;
+  border-radius: 2px;
+  margin-left: 90px;
+  margin-top: 10px;
+
+}
+
+.sign:hover{
+  
+  cursor: pointer;
+  background-color: blueviolet;
+  
+ 
+  color: aliceblue;
+}
+
+
+#form1{
+  margin-top: 200px;
+  
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 4px;
+}
+
+h1{
+  color: aliceblue;
+  margin-left: 36%;
+}
+#correo{
+  font-size: 16px;
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 3px;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+#date{
+  font-size: 16px;
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 3px;
+  border: 1px solid white;
+  background-color: rgb(255, 255, 255);
+}
+
+#nombre{
+  font-size: 16px;
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+
+
+label{
+  
+  margin-left: 30px;
+  color: aliceblue;
+  margin-top: 9px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .le{
+   margin-left: 50%;
+   margin-top: 5px;
+  text-decoration: none;
+  color: aliceblue;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ p{
+  color: aliceblue;
+  margin-left: 110px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+
+#li{
+color: aliceblue; 
+text-decoration: none;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 130px;
+}
+
+/* responsive */
+
+
+
+
+@media (min-width:550px ) and (max-width:1000px){
+ 
+ 
+ 
+ 
+ 
+  #form1{
+  
+   background-color: rgb(0, 0, 0);
+  width: 500px;
+   margin-left: 90px;
+   
+    
+  }
+  h1{
+    margin-left: 5.5cm;
+  }
+  #username{
+    display: flex;
+    justify-items: center;
+    margin-left:6em;
+    width: 20rem;
+  
+  }
+
+   #password {
+    display: flex;
+    margin-left:6em;
+    width: 20rem;
+
+   }
+  
+label{
+  margin-left: 2em;
+}
+  .sign{
+    margin-left: 10.5em
+  }
+
+  p{
+    margin-left: 10.5em ;
+  }
+  
+  #li{
+    margin-left: 12.5em;  
+  }
+.le{
+  margin-left: 18em;
+  margin-top: 10px;
+}
+  
+}
+
